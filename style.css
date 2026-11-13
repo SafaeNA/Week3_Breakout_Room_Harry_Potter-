@@ -75,7 +75,8 @@ main {
     border-radius: 8px;      /* Optional: adds slightly rounded corners */
 }
 
-.trailer {   
-    justify-content: center;
-    float: center;
+.trailer {
+display: flex;
+flex-direction: column;
+align-items: center;
 }
